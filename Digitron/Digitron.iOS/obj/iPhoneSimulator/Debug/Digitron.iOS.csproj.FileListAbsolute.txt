@@ -1,0 +1,8 @@
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\Digitron.iOS.csprojAssemblyReference.cache
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.iOS\obj\iPhoneSimulator\Debug\Digitron.iOS.csproj.CoreCompileInputs.cache

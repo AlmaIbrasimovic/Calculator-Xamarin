@@ -1,0 +1,11 @@
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\Digitron.UWP.csprojAssemblyReference.cache
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\App.g.i.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\App.g.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\MainPage.g.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\App.xaml
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\MainPage.xaml
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\App.xbf
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\MainPage.xbf
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron.UWP\obj\x86\Debug\XamlSaveStateFile.xml

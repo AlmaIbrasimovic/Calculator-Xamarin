@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Digitron"
+             x:Class="Digitron.MainPage"
+             Title="Digitron"
+             BackgroundColor="#404040">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="plain" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="1"/>
+            </Style>
+            <Style x:Key="orange" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Orange"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="1"/>
+            </Style>
+            <Style x:Key="darker" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Gray"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="BorderRadius" Value="5"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid x:Name="grid" RowSpacing="1" ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name ="Input" Grid.Row="0" TextColor ="White" Grid.ColumnSpan="4" HorizontalTextAlignment="End" VerticalTextAlignment="End" FontSize="40"/>
+            <Label x:Name ="Result" Grid.Row="1" TextColor ="White" Grid.ColumnSpan="4" HorizontalTextAlignment="End" VerticalTextAlignment="End" FontSize="40"/>
+            <Button Text="C" Clicked = "DigitAsync" Grid.Row="2" Grid.Column="0" Style="{StaticResource darker}"/>
+            <Button Text="√" Clicked = "Operator" Grid.Row="2" Grid.Column="1" Style="{StaticResource darker}"/>
+            <Button Text="%" Clicked = "Operator" Grid.Row="2" Grid.Column="2" Style="{StaticResource darker}"/>
+            <Button Text="/" Clicked = "Operator" Grid.Row="2" Grid.Column="3" Style="{StaticResource orange}"/>
+            
+            <Button Text="7" Grid.Row="3" Clicked="DigitAsync" Grid.Column="0" Style="{StaticResource plain}"/>
+            <Button Text="8" Grid.Row="3" Clicked="DigitAsync" Grid.Column="1" Style="{StaticResource plain}"/>
+            <Button Text="9" Grid.Row="3" Clicked="DigitAsync" Grid.Column="2" Style="{StaticResource plain}"/>
+            <Button Text="*" Grid.Row="3" Clicked="Operator" Grid.Column="3" Style="{StaticResource orange}"/>
+
+            <Button Text="4" Grid.Row="4" Clicked="DigitAsync" Grid.Column="0" Style="{StaticResource plain}"/>
+            <Button Text="5" Grid.Row="4" Clicked="DigitAsync" Grid.Column="1" Style="{StaticResource plain}"/>
+            <Button Text="6" Grid.Row="4" Clicked="DigitAsync" Grid.Column="2" Style="{StaticResource plain}"/>
+            <Button Text="+" Grid.Row="4" Clicked="Operator" Grid.Column="3" Style="{StaticResource orange}"/>
+
+            <Button Text="1" Grid.Row="5" Clicked="DigitAsync" Grid.Column="0" Style="{StaticResource plain}"/>
+            <Button Text="2" Grid.Row="5" Clicked="DigitAsync" Grid.Column="1" Style="{StaticResource plain}"/>
+            <Button Text="3" Grid.Row="5"  Clicked="DigitAsync" Grid.Column="2" Style="{StaticResource plain}"/>
+            <Button Text="-" Grid.Row="5"  Clicked="Operator" Grid.Column="3" Style="{StaticResource orange}"/>
+
+            <Button Text="." Grid.Row="6"  Clicked="DigitAsync" Grid.Column="2" Style="{StaticResource plain}"/>
+            <Button Text="=" Grid.Row="6" Clicked="Calculate"  Grid.Column="3" Style="{StaticResource orange}"/>
+            <Button Text="0" Grid.Row="6" Clicked="DigitAsync"  Grid.Column="0"  Grid.ColumnSpan="2" Style="{StaticResource plain}"/>
+        </Grid>
+    </ContentPage.Content>
+
+
+
+</ContentPage>

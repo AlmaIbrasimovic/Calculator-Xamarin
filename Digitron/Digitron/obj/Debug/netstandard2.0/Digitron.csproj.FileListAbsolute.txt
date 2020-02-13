@@ -1,0 +1,12 @@
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.csproj.CoreCompileInputs.cache
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.AssemblyInfoInputs.cache
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.AssemblyInfo.cs
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.dll
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.pdb
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\Digitron.csprojAssemblyReference.cache
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\bin\Debug\netstandard2.0\Digitron.deps.json
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\bin\Debug\netstandard2.0\Digitron.dll
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\bin\Debug\netstandard2.0\Digitron.pdb
+C:\Users\belma\source\repos\Digitron\Digitron\Digitron\obj\Debug\netstandard2.0\XamlC.stamp
